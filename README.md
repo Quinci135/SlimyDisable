@@ -3,12 +3,13 @@
  
 ## Commands
 ```slimydisable.change```    
-/slimychange subcommand
-### option   
+#### /slimychange \<Subcommand\>
+### Subcommands
+#### option   
  Lists available disabling options and a summary of each individual option
- ### change 
+ #### change 
  Changes the active disabling option   
- ### reloadconfig    
+ #### reloadconfig    
  Reloads the SlimyDisable.json config file.
  
 ## Other
