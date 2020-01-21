@@ -3,7 +3,7 @@
  
 ## Commands
 ```slimydisable.change```    
-/slimychange <option> | <change> | <reloadconfig>
+/slimychange subcommand
 ### option   
  Lists available disabling options and a summary of each individual option
  ### change 
