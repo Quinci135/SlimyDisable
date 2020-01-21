@@ -127,7 +127,7 @@ namespace SlimyDisable
                     SlimyBroadcast("killed");
                     break;
                 case "killS":
-                    player.KillPlayer();
+                    NetMessage.SendPlayerDeath(player.Index, Terraria.DataStructures.PlayerDeathReason.LegacyEmpty(), 99999, (new Random()).Next(-1, 1), false, -1, -1);
                     SlimyLogWarn("killed", true);
                     break;
                 case "slapKill":
